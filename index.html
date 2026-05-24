@@ -4,7 +4,37 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + JS</title>
+    <title>Todo JS</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="./src/main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="input-area">
+      <input id="input-text" type="text" placeholder="TODOを入力">
+      <button id="add-todo">追加</button>
+    </div>
+    <div class="incomplete-area">
+      <p class="title">未完了のTODO</p>
+      <ul id ="incomplete-todo">
+        <li>
+          <div class="list-row">
+            <p class="todo-item">やること</p>
+            <button id="complete-button">完了</button>
+            <button id="delete-button">削除</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="complete-area">
+      <p class="title">完了したTODO</p>
+      <ul id ="complete-todo">
+        <li>
+          <div class="list-row">
+            <p class="todo-item">やり終わったこと</p>
+            <button>戻す</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>

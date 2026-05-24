@@ -37,6 +37,7 @@ input{
     padding: 8px; 
     margin: 8px;
     border-radius: 8px;
+    min-height: 200px;
 }
 
 .complete-area {
@@ -46,6 +47,7 @@ input{
     padding: 8px; 
     margin: 8px;
     border-radius: 8px;
+    min-height: 200px;
 }
 
 .title { 
